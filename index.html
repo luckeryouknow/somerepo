@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login page</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <form action="" method="post">
+      <div class="container">
+        <label for="uname"><b>Login</b></label>
+        <input type="text" placeholder="Enter Login" name="uname" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="email" pattern=".+@example\.com" placeholder="Enter Email" name="email" required />
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <label for="repeat_psw"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="repeat_psw" required>
+    
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+    </form>
+  </body>
+</html>
